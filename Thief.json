@@ -1,0 +1,417 @@
+{
+  "class": "The Thief","description": [
+            "You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.",
+            "Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap? So, let them complain. When you’re done with all this delving you’ll toast their hero’s graves.",
+            "From your castle. Full of gold. You rogue."
+          ]
+        ,
+        "names": [
+            {"race": "Halfling",
+              "suggestions": ": Felix, Rook, Mouse, Sketch, Trixie, Robin, Omar, Brynn, Bug"
+            },
+            {"race": "Human",
+              "suggestions": ": Sparrow, Shank, Jack, Marlow, Dodge, Rat, Pox, Humble, Farley"
+            }
+          ]
+       ,"look": [ {"eyes":"Shifty Eyes or Criminal Eyes","hair": "Hooded Head, Messy Hair, or Cropped Hair","clothes": "Dark Clothes, Fancy Clothes, or Common Clothes","body": "Lithe Body, Knobby Body, or Flabby Body"
+            }
+          ],"racialmoves": [
+                {"move":"When you attack with a ranged weapon, deal +2 damage.","race": "Halfling"
+                },
+                {"move":"You are a professional. When you spout lore or discern realities about criminal activities, take +1.","race": "Human"
+                }
+              ]
+            ,"classmoves": [{"consequence":"roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:","move":"spend a moment to survey a dangerous area"
+                },
+                {"consequence":"roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost.","move":"pick locks or pockets or disable traps"
+                },
+                {"consequence":"you can choose to deal your damage or roll+DEX. ✴On a 10+ choose two. ✴On a 7–9 choose one.","move":"attack a surprised or defenseless enemy with a melee weapon"
+                },
+                {
+                  "move": "When someone tries to detect your alignment you can tell them any alignment you like."
+                },
+                {
+                  "move": "You’ve mastered the care and use of a poison. Choose a poison from the list below; that poison is no longer dangerous for you to use. You also start with three uses of the poison you choose. Whenever you have time to gather materials and a safe place to brew you can make three uses of the poison you choose for free. Note that some poisons are applied, meaning you have to carefully apply it to the target or something they eat or drink. Touch poisons just need to touch the target, they can even be used on the blade of a weapon."
+                }
+              ],
+              "h3": [
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Trap Expert"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Tricks of the Trade"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Backstab"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Flexible Morals"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Poisoner"
+                }
+              ],
+              "ul": [
+                {
+                  "li": [
+                    "Is there a trap here and if so, what activates it?",
+                    "What does the trap do when activated?",
+                    "What else is hidden here?"
+                  ]
+                },
+                {
+                  "li": [
+                    "You don’t get into melee with them",
+                    "You deal your damage+1d6",
+                    "You create an advantage, +1 forward to you or an ally acting on it",
+                    "Reduce their armor by 1 until they repair it"
+                  ]
+                },
+                {
+                  "li": [
+                    "Oil of Tagit (applied): The target falls into a light sleep",
+                    "Bloodweed (touch): The target deals -1d4 damage ongoing until cured",
+                    "Goldenroot (applied): The target treats the next creature they see as a trusted ally, until proved otherwise",
+                    "Serpent’s Tears (touch): Anyone dealing damage to the target rolls twice and takes the better result."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "alignment",
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Chaotic"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Neutral"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Evil"
+            }
+          ],
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Leap into danger without a plan."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Avoid detection or infiltrate a location."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Shift danger or blame from yourself to someone else."
+            }
+          ]
+        },
+        {
+          "-id": "gear",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Your load is 9+Str. You start with dungeon rations (5 uses, 1 weight), leather armor (1 armor, 1 weight), 3 uses of your chosen poison, and 10 coins. Choose your arms:"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose a ranged weapon:"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose one:"
+            }
+          ],
+          "ul": [
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Dagger (hand, 1 weight) and short sword (close, 1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Rapier (close, precise, 1 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "3 throwing daggers (thrown, near, 0 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Ragged Bow (near, 2 weight) and bundle of arrows (3 ammo, 1 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Adventuring gear (1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Healing potion (0 weight)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "bonds",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Fill in the name of one of your companions in at least one:"
+            },
+            "I stole something from _______________.",
+            "_______________ has my back when things go wrong.",
+            "_______________ knows incriminating details about me.",
+            "_______________ and I have a con running."
+          ]
+        },
+        {
+          "-id": "moves",
+          "p": [
+            {
+              "-aid:pstyle": "InstructionsAfterHeader",
+              "#text": "When you gain a level from 2–5, choose from these moves."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When using a precise or hand weapon, your backstab deals an extra +1d6 damage."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you use trap expert you always get +1 hold, even on a 6-."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", choose someone present. They will do anything they can to obtain your item or one like it."
+              ],
+              "strong": "make a show of flashing around your most valuable possession"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You’re never caught by surprise. When an enemy would get the drop on you, you get to act first instead."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "After you’ve used a poison once it’s no longer dangerous for you to use."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You can apply even complex poisons with a pinprick. When you apply a poison that’s not dangerous for you to use to your weapon it’s touch instead of applied."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you have time to gather materials and a safe place to brew you can create three doses of any one poison you’ve used before."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you’re outnumbered, you have +1 armor."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you put out word to the criminal underbelly about something you want or need, roll+CHA. ✴On a 10+, someone has it, just for you. ✴On a 7–9, you’ll have to settle for something close or it comes with strings attached, your call."
+            },
+            {
+              "-aid:pstyle": "Instructions",
+              "#text": "When you gain a level from 6–10, choose from these moves or the level 2–5 moves."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Cheap Shot"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When using a precise or hand weapon, your backstab deals an extra +1d8 damage and all other attacks deal +1d4 damage."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Cautious"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you use trap expert you always get +1 hold, even on a 6-. On a 12+ you get 3 hold and the next time you come near a trap the GM will immediately tell you what it does, what triggers it, who set it, and how you can use it to your advantage."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Brewer"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you have you have time to gather materials and a safe place to brew you can create three doses of any poison you’ve used before. Alternately you can describe the effects of a poison you’d like to create. The GM will tell you that you can create it, but with one or more caveats:"
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Underdog"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You have +1 armor. When you’re outnumbered, you have +2 armor instead."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you defy danger on a 12+, you transcend the danger. You not only do what you set out to, but the GM will offer you a better outcome, true beauty, or a moment of grace."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You can throw any melee weapon, using it to volley. A thrown melee weapon is gone; you can never choose to reduce ammo on a 7–9."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you’re in too deep and need a way out, name your escape route and roll+DEX. ✴On a 10+ you’re gone. ✴On a 7–9 you can stay or go, but if you go it costs you: leave something behind or take something with you, the GM will tell you what."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you have time and materials you can create a disguise that will fool anyone into thinking you’re another creature of about the same size and shape. Your actions can give you away but your appearance won’t."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you take time to make a plan to steal something, name the thing you want to steal and ask the GM these questions. When acting on the answers you and your allies take +1 forward."
+            }
+          ],
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Cheap Shot"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Cautious"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Wealth and Taste"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Shoot First"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Poison Master"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Envenom"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Brewer"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Underdog"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Connections"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Dirty Fighter"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Extremely Cautious"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Alchemist"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Serious Underdog"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Evasion"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Strong Arm, True Aim"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Escape Route"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Disguise"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Heist"
+            }
+          ],
+          "ul": [
+            {
+              "li": [
+                "It will only work under specific circumstances",
+                "The best you can manage is a weaker version",
+                "It’ll take a while to take effect",
+                "It’ll have obvious side effects"
+              ]
+            },
+            {
+              "li": [
+                "Who will notice it’s missing?",
+                "What’s its most powerful defense?",
+                "Who will come after it?",
+                "Who else wants it?"
+              ]
+            }
+          ]
+        }
+      ],
+      "h2": [
+        "Names",
+        "Look",
+        "Stats",
+        "Starting Moves",
+        "Alignment",
+        "Gear",
+        "Bonds",
+        "Advanced Moves"
+      ],
+      "p": [
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": "Your maximum HP is 6+Constitution."
+        },
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": [
+            "Your base damage is ",
+            "."
+          ],
+          "span": {
+            "-id": "Damage",
+            "#text": "d8"
+          }
+        },
+        {
+          "-aid:pstyle": "InstructionsAfterHeader",
+          "#text": "Choose an alignment:"
+        }
+      ]
+    }
+  }
+}

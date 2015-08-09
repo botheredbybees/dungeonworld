@@ -1,0 +1,521 @@
+{
+  "class": "The Fighter","description": [
+            "It’s a thankless job—living day to day by your armor and the skill of your arm. To dive heedlessly into danger. They won’t be playing golden horns for the time you took that knife to the ribs for them in the bar in Bucksberg. No flock of angels to sing of the time you dragged them, still screaming, from the edge of the Pits of Madness, no."
+            ,
+            "Forget them.",
+            "You do this for the guts and the glory. The scream of battle and the hot, hot blood of it. You are a beast of iron. Your friends may carry blades of forged steel but, fighter, you are steel. While your traveling companions might moan about their wounds over a campfire in the wilderness, you bear your scars with pride.",
+            "You are the wall—let every danger smash itself to nothing on you. In the end, you’ll be the last one standing."
+          ]
+        ,
+        "names": [
+            {"race": "Dwarf",
+              "suggestions": ": Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq"
+            },
+            {"race": "Elf",
+              "suggestions": ": Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian"
+            },
+            {"race": "Halfling",
+              "suggestions": ": Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca"
+            },
+            {"race": "Human",
+              "suggestions": ": Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob"
+            }
+          ]
+       ,"look": [ {"eyes":"Hard Eyes, Dead Eyes, or Eager Eyes","hair": "Wild Hair, Shorn Hair, or Battered Helm","skin": "Calloused Skin, Tanned Skin, or Scarred Skin","body": "Built Body, Lithe Body, or Ravaged Body"
+            }
+          ],"racialmoves": [
+                {"move":"When you share a drink with someone, you may parley with them using CON instead of CHA.","race": "Dwarf"
+                },
+                {"move":"Choose one weapon—you can always treat weapons of that type as if they had the precise tag.","race": "Elf"
+                },
+                {"move":"When you defy danger and use your small size to your advantage, take +1.","race": "Halfling"
+                },
+                {"move":"Once per battle you may reroll a single damage roll (yours or someone else’s).","race": "Human"
+                }
+              ],
+            "classmoves": [{"consequence":"roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.","move":"use pure strength to destroy an inanimate obstacle","move": "You ignore the clumsy tag on armor you wear.","move": "This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true."
+                },
+                "Choose a base description, all are 2 weight:",
+                {
+                  "-aid:pstyle": "NoIndent",
+                  "#text": "Choose the range that best fits your weapon:","move": "Choose two enhancements:","move": "Choose a look:"
+                }
+              ],
+              "h3": [
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Bend Bars, Lift Gates"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Armored"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Signature Weapon"
+                }
+              ],
+              "ul": [
+                {
+                  "li": [
+                    "It doesn’t take a very long time",
+                    "Nothing of value is damaged",
+                    "It doesn’t make an inordinate amount of noise",
+                    "You can fix the thing again without a lot of effort"
+                  ]
+                },
+                {
+                  "li": [
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Sword"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Axe"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Hammer"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Spear"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Flail"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Fists"
+                    }
+                  ]
+                },
+                {
+                  "li": [
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Hand"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Close"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Reach"
+                    }
+                  ]
+                },
+                {
+                  "li": [
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Hooks and spikes. +1 damage, but +1 weight."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Sharp. +2 piercing."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Perfectly weighted. Add precise."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Serrated edges. +1 damage."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Glows in the presence of one type of creature, your choice."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Huge. Add messy and forceful."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Versatile. Choose an additional range."
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Well-crafted. -1 weight."
+                    }
+                  ]
+                },
+                {
+                  "li": [
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Ancient"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Unblemished"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Ornate"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Blood-stained"
+                    },
+                    {
+                      "-aid:pstyle": "Option",
+                      "#text": "Sinister"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "alignment",
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Good"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Neutral"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Evil"
+            }
+          ],
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Defend those weaker than you."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Defeat a worthy opponent."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Kill a defenseless or surrendered enemy."
+            }
+          ]
+        },
+        {
+          "-id": "gear",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Your load is 12+Str. You carry your signature weapon and dungeon rations (5 uses, 1 weight). Choose your defenses:"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose two:"
+            }
+          ],
+          "ul": [
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Chainmail (1 armor, 1 weight) and adventuring gear (1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Scale armor (2 armor, 3 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "2 Healing potions (0 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Shield (+1 armor, 2 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Antitoxin (0 weight), dungeon rations (1 weight), and poultices and herbs (1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "22 coins"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "bonds",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Fill in the name of one of your companions in at least one:"
+            },
+            "_______________ owes me their life, whether they admit it or not.",
+            "I have sworn to protect _______________.",
+            "I worry about the ability of _______________ to survive in the dungeon.",
+            "_______________ is soft, but I will make them hard like me."
+          ]
+        },
+        {
+          "-id": "moves",
+          "p": [
+            {
+              "-aid:pstyle": "InstructionsAfterHeader",
+              "#text": "When you gain a level from 2-5, choose from these moves."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you deal damage, deal +1d4 damage."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression."
+              ],
+              "strong": "consult the spirits that reside within your signature weapon"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", the damage is negated but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed."
+              ],
+              "strong": "make your armor take the brunt of damage dealt to you"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose one extra enhancement for your signature weapon."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you discern realities during combat, you take +1."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", you may use STR instead of CHA."
+              ],
+              "strong": "parley using threats of impending violence as leverage"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you hack and slash an enemy, your next attack against that same foe deals +1d4 damage."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Get one move from another class. Treat your level as one lower for choosing the move."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You gain +1 armor."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you have access to a forge you can graft the magical powers of a weapon onto your signature weapon. This process destroys the magical weapon. Your signature weapon gains the magical powers of the destroyed weapon."
+            },
+            {
+              "-aid:pstyle": "Instructions",
+              "#text": "When you gain a level from 6-10, choose from these moves or the level 2-5 moves."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Merciless"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you deal damage, deal +1d8 damage."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Armor Mastery"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", the damage is negated and you take +1 forward against the attacker, but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed."
+              ],
+              "strong": "choose to let your armor take the brunt of damage dealt to you"
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Requires: Seeing Red"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", roll+CHA. ✴On a 10+, hold 2. ✴On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. ✴On a 6-, your enemies immediately identify you as their biggest threat."
+              ],
+              "strong": "enter combat"
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Scent of Blood"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you hack and slash an enemy, your next attack against that same foe deals +1d8 damage."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Required: Multiclass Dabbler"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Get one move from another class. Treat your level as one lower for choosing the move."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Iron Hide"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You gain +2 armor."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", roll+WIS. ✴On a 10+, name someone who will live ",
+                " someone who will die. ✴On a 7-9, name someone who will live ",
+                " someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. ✴On a 6- you see your own death and consequently take -1 ongoing throughout the battle."
+              ],
+              "strong": [
+                "go into battle",
+                "and",
+                "or"
+              ]
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you look over an enemy’s weaponry, ask the GM how much damage they do."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you hack and slash on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy."
+            }
+          ],
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Merciless"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Heirloom"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Armor Mastery"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Improved Weapon"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Seeing Red"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Interrogator"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Scent of Blood"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Multiclass Dabbler"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Iron Hide"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Blacksmith"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Bloodthirsty"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Armored Perfection"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Evil Eye"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Taste of Blood"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Multiclass Initiate"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Steel Hide"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Through Death’s Eyes"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Eye for Weaponry"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Superior Warrior"
+            }
+          ]
+        }
+      ],
+      "h2": [
+        "Names",
+        "Look",
+        "Stats",
+        "Starting Moves",
+        "Alignment",
+        "Gear",
+        "Bonds",
+        "Advanced Moves"
+      ],
+      "p": [
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": "Your maximum HP is 10+Constitution."
+        },
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": [
+            "Your base damage is ",
+            "."
+          ],
+          "span": {
+            "-id": "Damage",
+            "#text": "d10"
+          }
+        },
+        {
+          "-aid:pstyle": "InstructionsAfterHeader",
+          "#text": "Choose an alignment:"
+        }
+      ]
+    }
+  }
+}

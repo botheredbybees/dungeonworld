@@ -1,0 +1,427 @@
+{
+  "class": "The Ranger","description": [
+            "These city-born folk you travel with. Have they heard the call of the wolf? Felt the winds howl in the bleak deserts of the East? Have they hunted their prey with the bow and the knife like you? Hell no. That’s why they need you."
+            ,
+            "Guide. Hunter. Creature of the wilds. You are these things and more. Your time in the wilderness may have been solitary until now, but the call of some greater thing—call it fate if you like—has cast your lot with these folk. Brave, they may be. Powerful and strong, too. You know the secrets of the spaces between, though.",
+            "Without you, they’d be lost. Blaze a trail through the blood and dark, strider."
+          ]
+        ,
+        "names": [
+            {"race": "Elf",
+              "suggestions": ": Throndir, Elrosine, Aranwe, Celion, Dambrath, Lanethe"
+            },
+            {"race": "Human",
+              "suggestions": ": Jonah, Halek, Brandon, Emory, Shrike, Nora, Diana"
+            }
+          ]
+       ,"look": [ {"eyes":"Wild Eyes, Sharp Eyes, or Animal Eyes","hair": "Hooded Head, Wild Hair, or Bald","clothes": "Cape, Camouflage, or Traveling Clothes","body": "Lithe Body, Wild Body, or Sharp Body"
+            }
+          ],"racialmoves": [
+                {"move":"When you undertake a perilous journey through wilderness whatever job you take you succeed as if you rolled a 10+.","race": "Elf"
+                },
+                {"move":"When you make camp in a dungeon or city, you don’t need to consume a ration.","race": "Human"
+                }
+              ]
+            ,"classmoves": [{"consequence":"roll+WIS. ✴On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. ✴On a 10+, you also choose 1:","move":"follow a trail of clues left behind by passing creatures"
+                },
+                {"consequence":"you can choose to deal your damage or name your target and roll+DEX.","move":"attack a defenseless or surprised enemy at range"
+                },
+                {
+                  "move": "You have a supernatural connection with a loyal animal. You can’t talk to it per se but it always acts as you wish it to. Name your animal companion and choose a species: Wolf, cougar, bear, eagle, dog, hawk, cat, owl, pigeon, rat, mule","move": "Choose a base:","move": "Choose as many strengths as its ferocity:"
+                },
+                {
+                  "-aid:pstyle": "Example",
+                  "#text": "Fast, burly, huge, calm, adaptable, quick reflexes, tireless, camouflage, ferocious, intimidating, keen senses, stealthy","move": "Your animal companion is trained to fight humanoids. Choose as many additional trainings as its cunning:"
+                },
+                {
+                  "-aid:pstyle": "Example",
+                  "#text": "Hunt, search, scout, guard, fight monsters, perform, labor, travel","move": "Choose as many weaknesses as its instinct:"
+                },
+                {
+                  "-aid:pstyle": "Example",
+                  "#text": "Flighty, savage, slow, broken, frightening, forgetful, stubborn, lame","move": "When you work with your animal companion on something it’s trained in…"
+                }
+              ],
+              "h3": [
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Hunt and Track (Wis)"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Called Shot"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Animal Companion"
+                },
+                {
+                  "-aid:pstyle": "BasicMoveName",
+                  "#text": "Command"
+                }
+              ],
+              "ul": [
+                {
+                  "li": [
+                    "Gain a useful bit of information about your quarry, the GM will tell you what",
+                    "Determine what caused the trail to end"
+                  ]
+                },
+                {
+                  "li": [
+                    "Head ✴10+: As 7–9, plus your damage ✴7-9: They do nothing but stand and drool for a few moments.",
+                    "Arms ✴10+: As 7-9, plus your damage ✴7-9: They drop anything they’re holding.",
+                    "Legs ✴10+: As 7-9, plus your damage ✴7-9: They’re hobbled and slow moving."
+                  ]
+                },
+                {
+                  "li": [
+                    "Ferocity +2, Cunning +1, 1 Armor, Instinct +1",
+                    "Ferocity +2, Cunning +2, 0 Armor, Instinct +1",
+                    "Ferocity +1, Cunning +2, 1 Armor, Instinct +1",
+                    "Ferocity +3, Cunning +1, 1 Armor, Instinct +2"
+                  ]
+                },
+                {
+                  "li": [
+                    "…and you attack the same target, add its ferocity to your damage",
+                    "…and you track, add its cunning to your roll",
+                    "…and you take damage, add its armor to your armor",
+                    "…and you discern realities, add its cunning to your roll",
+                    "…and you parley, add its cunning to your roll",
+                    "…and someone interferes with you, add its instinct to their roll"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "alignment",
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Chaotic"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Good"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Neutral"
+            }
+          ],
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Free someone from literal or figurative bonds."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Endanger yourself to combat an unnatural threat."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Help an animal or spirit of the wild."
+            }
+          ]
+        },
+        {
+          "-id": "gear",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Your load is 11+Str. You start with dungeon rations (5 uses, 1 weight), leather armor (1 armor, 1 weight), and a bundle of arrows (3 ammo, 1 weight). Choose your armament:"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose one:"
+            }
+          ],
+          "ul": [
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Hunter’s bow (near, far, 1 weight) and short sword (close, 1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Hunter’s bow (near, far, 1 weight) and spear (reach, 1 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Adventuring gear (1 weight) and dungeon rations (1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Adventuring gear (1 weight) and bundle of arrows (3 ammo, 1 weight)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "bond",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Fill in the name of one of your companions in at least one:"
+            },
+            "I have guided _______________ before and they owe me for it.",
+            "_______________ is a friend of nature, so I will be their friend as well.",
+            "_______________ has no respect for nature, so I have no respect for them.",
+            "_______________ does not understand life in the wild, so I will teach them."
+          ]
+        },
+        {
+          "-id": "moves",
+          "p": [
+            {
+              "-aid:pstyle": "InstructionsAfterHeader",
+              "#text": "You may take this move only if it is your first advancement."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Somewhere in your lineage lies mixed blood and it begins to show its presence. You gain the elf starting move if you took the human one at character creation or vice versa."
+            },
+            {
+              "-aid:pstyle": "Instructions",
+              "#text": "When you gain a level from 2-5, choose from these moves."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You can speak with and understand animals."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you spout lore about a monster you use WIS instead of INT."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you strike an enemy with two weapons at once, add an extra 1d4 damage for your off-hand strike."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", enemies never spot you until you make a movement."
+              ],
+              "strong": "keep still in natural surroundings"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", the damage is negated and your animal companion’s ferocity becomes 0. If its ferocity is already 0 you can’t use this ability. When you have a few hours of rest with your animal companion its ferocity returns to normal."
+              ],
+              "strong": "allow your animal companion to take a blow that was meant for you"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you volley you may spend extra ammo before rolling. For each point of ammo spent you may choose an extra target. Roll once and apply damage to all targets."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose another training for your animal companion."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the commune and cast a spell cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you undertake a perilous journey you can take two roles. You make a separate roll for each."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", everyone takes +1 to take watch."
+              ],
+              "strong": "set the watch for the night"
+            },
+            {
+              "-aid:pstyle": "Instructions",
+              "#text": "When you gain a level from 6-10, choose from these moves or the level 2-5 moves."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Wild Empathy"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You can speak with and understand any non-magical, non-planar creature."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Familiar Prey"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you spout lore about a monster you use WIS instead of INT. On a 12+, in addition to the normal effects, you get to ask the GM any one question about the subject."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Viper’s Strike"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you strike an enemy with two weapons at once, add an extra 1d8 damage for your off-hand strike."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you know your target’s weakest point your arrows have 2 piercing."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Follow Me"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you undertake a perilous journey you can take two roles. Roll twice and use the better result for both roles."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: A Safe Place"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you set the watch for the night everyone takes +1 to take watch. After a night in camp when you set the watch everyone takes +1 forward."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you hunt and track, on a hit you may also ask one question about the creature you are tracking from the discern realities list for free."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose a move from another class. So long as you are working with your animal companion you have access to that move."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Your animal companion is a monster, not an animal. Describe it. Give it +2 ferocity and +1 instinct, plus a new training."
+            }
+          ],
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Half-Elven"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Wild Empathy"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Familiar Prey"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Viper’s Strike"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Camouflage"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Man’s Best Friend"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Blot Out the Sun"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Well-Trained"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "God Amidst the Wastes"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Follow Me"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "A Safe Place"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Wild Speech"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Hunter’s Prey"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Viper’s Fangs"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Smaug’s Belly"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Strider"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "A Safer Place"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Observant"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Special Trick"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Unnatural Ally"
+            }
+          ]
+        }
+      ],
+      "h2": [
+        "Names",
+        "Look",
+        "Stats",
+        "Starting Moves",
+        "Alignment",
+        "Gear",
+        "Bonds",
+        "Advanced Moves"
+      ],
+      "p": [
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": "Your maximum HP is 8+Constitution."
+        },
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": [
+            "Your base damage is ",
+            "."
+          ],
+          "span": {
+            "-id": "Damage",
+            "#text": "d8"
+          }
+        },
+        {
+          "-aid:pstyle": "InstructionsAfterHeader",
+          "#text": "Choose an alignment:"
+        }
+      ]
+    }
+  }
+}

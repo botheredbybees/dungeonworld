@@ -1,0 +1,504 @@
+{
+  "class": "The Druid","description":[
+            "Cast your eyes around the fire. What has brought you to these people, stinking of the dust and sweat of the city? Perhaps it is a kindness—do you protect them as the mother bear watches over her cubs? Are they your pack, now? Strange brothers and sisters you have. Whatever your inspiration, they would certainly fail without your sharp senses and sharper claws."
+            ,
+            "You are of the sacred spaces; you are born of soil and wear the marks of her spirits on your skin. You may have had a life before, maybe you were a city dweller like them, but not now. You’ve given up that static shape. Listen to your allies pray to their carved stone gods and polish their silver shells. They speak of the glory they’ll find back in that festering town you left behind.",
+            "Their gods are children, their steel is false protection. You walk the old ways, you wear the pelts of the earth itself. You’ll take your share of the treasure, but will you ever walk as one of them? Only time will tell."
+          ]
+        ,
+        "names": [
+            {"race": "Elf",
+              "suggestions": ": Hycorax, Ethanwe, Sinathel, Demanor, Menoliir, Mithralan, Taeros, Aegor"
+            },
+            {"race": "Halfling",
+              "suggestions": ": Tanner, Dunstan, Rose, Ivy, Robard, Mab, Thistle, Puck, Anne, Serah"
+            },
+            {"race": "Human",
+              "suggestions": ": Elana, Obelis, Herran, Syla, Andanna, Siobhan, Aziz, Pelin, Sibel, Nils, Wei"
+            }
+          ]
+       ,"look": [ {"eyes":"Wise Eyes, Wild Eyes, or Haunting Eyes","hair": "Furry Hood, Messy Hair, or Braided Hair","clothes": "Ceremonial Garb, Practical Leathers, or Weathered Hides"
+            }
+          ],"racialmoves": [
+                {"move":"The sap of the elder trees flows within you. In addition to any other attunements, the Great Forest is always considered your land.","race": "Elf"
+                },
+                {"move":"As your people learned to bind animals to field and farm, so too are you bound to them. You may always take the shape of any domesticated animal, in addition to your normal options.","race": "Human"
+                },
+                {"move":"You sing the healing songs of spring and brook. When you make camp, you and your allies heal +1d6.","race": "Halfling"
+                }
+              ],
+            "classmoves": [
+                {
+                  "-id": "BornoftheSoil",
+                  "h3": {
+                    "-aid:pstyle": "BasicMoveName",
+                    "#text": "Born of the Soil"
+                  },
+                  "p": [
+                    {
+                      "-aid:pstyle": "NoIndent",
+                      "#text": "You learned your magic in a place whose spirits are strong and ancient and they’ve marked you as one of their own. No matter where you go, they live within you and allow you to take their shape. Choose one of the following. It is the land to which you are attuned—when shapeshifting you may take the shape of any animal who might live in your Land."
+                    },
+                    {
+                      "-aid:pstyle": "NoIndent",
+                      "#text": "Chose a tell—a physical attribute that marks you as born of the soil—that reflects the spirit of your land. It may be an animal feature like antlers or leopard’s spots or something more general: hair like leaves or eyes of glittering crystal. Your tell remains no matter what shape you take."
+                    }
+                  ],
+                  "ul": {
+                    "li": [
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Great Forests"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Whispering Plains"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Vast Desert"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Stinking Mire"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The River Delta"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Depths of the Earth"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Sapphire Islands"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Open Sea"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Towering Mountains"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Frozen North"
+                      },
+                      {
+                        "-aid:pstyle": "Option",
+                        "#text": "The Blasted Wasteland"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "-id": "ByNatureSustained",
+                  "h3": {
+                    "-aid:pstyle": "BasicMoveName",
+                    "#text": "By Nature Sustained"
+                  },
+                  "p": {
+                    "-aid:pstyle": "NoIndent",
+                    "#text": "You don’t need to eat or drink. If a move tells you to mark off a ration just ignore it."
+                  }
+                },
+                {
+                  "-id": "SpiritTongue",
+                  "h3": {
+                    "-aid:pstyle": "BasicMoveName",
+                    "#text": "Spirit Tongue"
+                  },
+                  "p": {
+                    "-aid:pstyle": "NoIndent",
+                    "#text": "The grunts, barks, chirps, and calls of the creatures of the wild are as language to you. You can understand any animal native to your land or akin to one whose essence you have studied."
+                  }
+                },
+                {
+                  "-id": "Shapeshifter",
+                  "h3": {
+                    "-aid:pstyle": "BasicMoveName",
+                    "#text": "Shapeshifter"
+                  },
+                  "p": [
+                    {
+                      "-aid:pstyle": "NoIndent",
+                      "#text": "When you call upon the spirits to change your shape, roll+Wis. ✴On a 10+ hold 3. ✴On a 7–9 hold 2. ✴On a miss hold 1 in addition to whatever the GM says."
+                    },
+                    "You may take on the physical form of any species whose essence you have studied or who lives in your land: you and your possessions meld into a perfect copy of the species’ form. You have any innate abilities and weaknesses of the form: claws, wings, gills, breathing water instead of air. You still use your normal stats but some moves may be harder to trigger—a housecat will find it hard to do battle with an ogre. The GM will also tell you one or more moves associated with your new form. Spend 1 hold to make that move. Once you’re out of hold, you return to your natural form. At any time, you may spend all your hold and revert to your natural form."
+                  ]
+                },
+                {
+                  "-id": "StudiedEssence",
+                  "h3": {
+                    "-aid:pstyle": "BasicMoveName",
+                    "#text": "Studied Essence"
+                  },
+                  "p": {
+                    "-aid:pstyle": "NoIndent",
+                    "#text": [
+                      "When you ",
+                      ", you may add its species to those you can assume using shapeshifting."
+                    ],
+                    "strong": "spend time in contemplation of an animal spirit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "-id": "alignment",
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Chaotic"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Good"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Neutral"
+            }
+          ],
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Destroy a symbol of civilization."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Help something or someone grow."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Eliminate an unnatural menace."
+            }
+          ]
+        },
+        {
+          "-id": "gear",
+          "p": {
+            "-aid:pstyle": "NoIndent",
+            "#text": "Your load is 6+Str. You carry some token of your land, describe it. Choose your defenses:"
+          },
+          "ul": [
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Hide armor (1 armor, 1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Wooden shield (+1 armor, 1 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Shillelagh (close, 2 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Staff (close, two-handed, 1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Spear (close, thrown, near, 1 weight)"
+                }
+              ]
+            },
+            {
+              "li": [
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Adventuring gear (1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Poultices and herbs (2 uses, 1 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "Halfling pipeleaf (0 weight)"
+                },
+                {
+                  "-aid:pstyle": "Option",
+                  "#text": "3 antitoxin (0 weight)"
+                }
+              ]
+            }
+          ],
+          "#text": [
+            "
+Choose your armament:
+",
+            "
+Choose one:
+"
+          ]
+        },
+        {
+          "-id": "bonds",
+          "p": [
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Fill in the name of one of your companions in at least one:"
+            },
+            "____________________ smells more like prey than a hunter.",
+            "The spirits spoke to me of a great danger that follows ______________.",
+            "I have showed ________________ a secret rite of the Land.",
+            "___________ has tasted my blood and I theirs. We are bound by it."
+          ]
+        },
+        {
+          "-id": "moves",
+          "p": [
+            {
+              "-aid:pstyle": "InstructionsAfterHeader",
+              "#text": "When you gain a level from 2–5, choose from these moves."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose one move from the ranger class list."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                " (something dangerous) increase your damage to d8."
+              ],
+              "strong": "are in an appropriate animal form"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When ",
+                ", roll+Wis. You will be granted a vision of significance to you, your allies, and the spirits around you. ✴On a 10+ the vision will be clear and helpful to you. ✴On a 7–9 the vision is unclear, its meaning murky. ✴On a miss, the vision is upsetting, frightening, or traumatizing. The GM will describe it. Take -1 forward."
+              ],
+              "strong": "you spend time in a place, making note of its resident spirits and calling on the spirits of the land"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "So long as your feet touch the ground you have +1 armor."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you mark an animal (with mud, dirt, or blood) you can see through that animal’s eyes as if they were your own, no matter what distance separates you. Only one animal at a time may be marked in this way."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                " you may choose to revert to your natural form to negate the damage."
+              ],
+              "strong": "take damage while shapeshifted"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You see the spirits in the sand, the sea and the stone. You may now apply your spirit tongue, shapeshifting and studied essence to inanimate natural objects (plants and rocks) or creatures made thereof, as well as animals. Thing-talker forms can be exact copies or can be mobile vaguely humanoid-shaped entities."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you shapeshift choose a stat: you take +1 ongoing to rolls using that stat while shifted. The GM will choose a stat, too: you take -1 ongoing to rolls using that stat while shifted."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                " roll+Wis. ✴On a 10+ choose two. ✴On a 7–9 choose one. ✴On a miss, some catastrophe occurs as a result of your calling."
+              ],
+              "strong": "call on the primal spirits of fire, water, earth or air to perform a task for you"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                ", take 1 balance. When you touch someone and channel the spirits of life you may spend balance. For each balance spent, heal 1d4 HP."
+              ],
+              "strong": "deal damage"
+            },
+            {
+              "-aid:pstyle": "Instructions",
+              "#text": "When you gain a level from 6–10, choose from these moves or the level 2–5 moves."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you shapeshift, roll 1d4 and add that total to your hold."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You are able to study the essence of specific individuals to take their exact form, including men, elves, or the like. Suppressing your tell is possible, but if you do, take -1 ongoing until you return to your own form."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Replaces: Red of Tooth and Claw"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": [
+                "When you ",
+                " (something dangerous) increase your damage to d10."
+              ],
+              "strong": "are in an appropriate animal form"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you take this move, the next opportunity that you have safety and time to spend in an appropriate location, you may attune yourself to a new land. This effect occurs only once and the GM will tell you how long it will take and what cost you must pay. From then on, you are considered to be born of the soil in both lands."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Requires: Thing-Talker"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You see the patterns that make up the fabric of the world. You may now apply your spirit tongue, shapeshifter and studied essence moves to pure elements—fire, water, air and earth."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "Choose one move from the ranger class list."
+            },
+            {
+              "-aid:pstyle": "Requirement",
+              "#text": "Requires: Formcrafter"
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "You may increase your armor by 1 or deal an additional +1d4 damage while in an animal form. Choose which when you shapeshift."
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you shapeshift, you may create a merged form of up to three different shapes. You may be a bear with the wings of an eagle and the head of a ram, for example. Each feature will grant you a different move to make. Your chimera form follows the same rules as shapeshifter otherwise. "
+            },
+            {
+              "-aid:pstyle": "NoIndent",
+              "#text": "When you are under open skies when the sun rises the GM will ask you what the weather will be that day. Tell them whatever you like, it comes to pass."
+            }
+          ],
+          "h3": [
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Hunter’s Brother"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Red of Tooth and Claw"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Communion of Whispers"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Barkskin"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Eyes of the Tiger"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Shed"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Thing-Talker"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Formcrafter"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Elemental Mastery"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Balance"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Embracing No Form"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Doppelgänger’s Dance"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Blood and Thunder"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "The Druid Sleep"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "World-Talker"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Stalker’s Sister"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Formshaper"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Chimera"
+            },
+            {
+              "-aid:pstyle": "MoveName",
+              "#text": "Weather Weaver"
+            }
+          ],
+          "ul": {
+            "li": [
+              "The effect you desire comes to pass",
+              "You avoid paying nature’s price ",
+              "You retain control"
+            ]
+          }
+        }
+      ],
+      "h2": [
+        "Names",
+        "Look",
+        "Stats",
+        "Starting Moves",
+        "Alignment",
+        "Gear",
+        "Bonds",
+        "Advanced Moves"
+      ],
+      "p": [
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": "Your maximum HP is 6+Constitution."
+        },
+        {
+          "-aid:pstyle": "NoIndent",
+          "#text": [
+            "Your base damage is ",
+            "."
+          ],
+          "span": {
+            "-id": "Damage",
+            "#text": "d6"
+          }
+        },
+        {
+          "-aid:pstyle": "InstructionsAfterHeader",
+          "#text": "Choose an alignment:"
+        }
+      ]
+    }
+  }
+}
