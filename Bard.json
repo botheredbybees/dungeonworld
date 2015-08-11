@@ -17,9 +17,9 @@
        ,"look": [ {"eyes":"Knowing Eyes, Fiery Eyes, or Joyous Eyes","hair": "Fancy Hair, Wild Hair, or Stylish Cap","clothes": "Finery, Traveling Clothes, or Poor Clothes","body": "Fit Body, Well-fed Body, or Thin Body"
             }
           ],"racialmoves": [
-                {"move":"When you enter an important location (your call) you can ask the GM for one fact from the history of that location.","race": "Elf"
+                {"description":"When you enter an important location (your call) you can ask the GM for one fact from the history of that location.","race": "Elf"
                 },
-                {"move":"When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.","race": "Human"
+                {"description":"When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.","race": "Human"
                 }
               ],
             "classmoves": [
@@ -46,13 +46,13 @@
                 },
                 {
                   "-aid:pstyle": "NoIndent",
-                  "#text": ["consequence":"you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully)."
+                  "#text": ["mechanics":"you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully)."
                   ],
                   "strong": "speak frankly with someone"
                 },
                 {
                   "-aid:pstyle": "NoIndent",
-                  "#text": ["consequence":"tell the GM when you were last here. They’ll tell you how it’s changed since then."
+                  "#text": ["mechanics":"tell the GM when you were last here. They’ll tell you how it’s changed since then."
                   ],
                   "strong": "return to a civilized settlement you’ve visited before"
                 }

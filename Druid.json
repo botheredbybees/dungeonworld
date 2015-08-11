@@ -20,11 +20,11 @@
        ,"look": [ {"eyes":"Wise Eyes, Wild Eyes, or Haunting Eyes","hair": "Furry Hood, Messy Hair, or Braided Hair","clothes": "Ceremonial Garb, Practical Leathers, or Weathered Hides"
             }
           ],"racialmoves": [
-                {"move":"The sap of the elder trees flows within you. In addition to any other attunements, the Great Forest is always considered your land.","race": "Elf"
+                {"description":"The sap of the elder trees flows within you. In addition to any other attunements, the Great Forest is always considered your land.","race": "Elf"
                 },
-                {"move":"As your people learned to bind animals to field and farm, so too are you bound to them. You may always take the shape of any domesticated animal, in addition to your normal options.","race": "Human"
+                {"description":"As your people learned to bind animals to field and farm, so too are you bound to them. You may always take the shape of any domesticated animal, in addition to your normal options.","race": "Human"
                 },
-                {"move":"You sing the healing songs of spring and brook. When you make camp, you and your allies heal +1d6.","race": "Halfling"
+                {"description":"You sing the healing songs of spring and brook. When you make camp, you and your allies heal +1d6.","race": "Halfling"
                 }
               ],
             "classmoves": [
@@ -37,11 +37,11 @@
                   "p": [
                     {
                       "-aid:pstyle": "NoIndent",
-                      "#text": "You learned your magic in a place whose spirits are strong and ancient and they’ve marked you as one of their own. No matter where you go, they live within you and allow you to take their shape. Choose one of the following. It is the land to which you are attuned—when shapeshifting you may take the shape of any animal who might live in your Land."
+                  "move": "You learned your magic in a place whose spirits are strong and ancient and they’ve marked you as one of their own. No matter where you go, they live within you and allow you to take their shape. Choose one of the following. It is the land to which you are attuned—when shapeshifting you may take the shape of any animal who might live in your Land."
                     },
                     {
                       "-aid:pstyle": "NoIndent",
-                      "#text": "Chose a tell—a physical attribute that marks you as born of the soil—that reflects the spirit of your land. It may be an animal feature like antlers or leopard’s spots or something more general: hair like leaves or eyes of glittering crystal. Your tell remains no matter what shape you take."
+                  "move": "Chose a tell—a physical attribute that marks you as born of the soil—that reflects the spirit of your land. It may be an animal feature like antlers or leopard’s spots or something more general: hair like leaves or eyes of glittering crystal. Your tell remains no matter what shape you take."
                     }
                   ],
                   "ul": {

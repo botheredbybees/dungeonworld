@@ -24,156 +24,67 @@
        ,"look": [ {"eyes":"Hard Eyes, Dead Eyes, or Eager Eyes","hair": "Wild Hair, Shorn Hair, or Battered Helm","skin": "Calloused Skin, Tanned Skin, or Scarred Skin","body": "Built Body, Lithe Body, or Ravaged Body"
             }
           ],"racialmoves": [
-                {"move":"When you share a drink with someone, you may parley with them using CON instead of CHA.","race": "Dwarf"
+                {"description":"When you share a drink with someone, you may parley with them using CON instead of CHA.","race": "Dwarf"
                 },
-                {"move":"Choose one weapon—you can always treat weapons of that type as if they had the precise tag.","race": "Elf"
+                {"description":"Choose one weapon—you can always treat weapons of that type as if they had the precise tag.","race": "Elf"
                 },
-                {"move":"When you defy danger and use your small size to your advantage, take +1.","race": "Halfling"
+                {"description":"When you defy danger and use your small size to your advantage, take +1.","race": "Halfling"
                 },
-                {"move":"Once per battle you may reroll a single damage roll (yours or someone else’s).","race": "Human"
+                {"description":"Once per battle you may reroll a single damage roll (yours or someone else’s).","race": "Human"
                 }
               ],
-            "classmoves": [{"consequence":"roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.","move":"use pure strength to destroy an inanimate obstacle","move": "You ignore the clumsy tag on armor you wear.","move": "This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true."
-                },
-                "Choose a base description, all are 2 weight:",
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": "Choose the range that best fits your weapon:","move": "Choose two enhancements:","move": "Choose a look:"
-                }
-              ],
-              "h3": [
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Bend Bars, Lift Gates"
+            "classmovesmechanics":"roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.",
+            "classmoves": [{
+                  "move": "Bend Bars, Lift Gates"
+            "description":"use pure strength to destroy an inanimate obstacle",
                 },
                 {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Armored"
+                  "move": "Armored",
+            "description": "You ignore the clumsy tag on armor you wear.",
                 },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Signature Weapon"
-                }
-              ],
-              "ul": [
-                {
-                  "li": [
-                    "It doesn’t take a very long time",
-                    "Nothing of value is damaged",
+                { "move": "Signature Weapon",               
+            "description": "This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true.",
+            "descriptionchecklist":[
+                    "Sword","Axe","Hammer","Spear","Flail","Fists"
+                  ],
+            "mechanicschecklist":[ {
+                  "item":"Special quality",
+                  "description": "Choose a base description, all are 2 weight:",
+                  "descriptionchecklist": [
+                    "It doesn’t take a very long time to use",
+                    "It will not damage anything of value",
                     "It doesn’t make an inordinate amount of noise",
-                    "You can fix the thing again without a lot of effort"
+                    "You can fix it again without a lot of effort"
                   ]
-                },
-                {
-                  "li": [
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Sword"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Axe"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Hammer"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Spear"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Flail"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Fists"
-                    }
+                },{
+                  "item":"Enhancements",
+                  "mechanics": "Choose two enhancements:",
+                  "mechanicschecklist": [
+                  "Hooks and spikes. +1 damage, but +1 weight.",
+                  "Sharp. +2 piercing.",
+                  "Perfectly weighted. Add precise.",
+                  "Serrated edges. +1 damage.",
+                  "Glows in the presence of one type of creature, your choice.",
+                  "Huge. Add messy and forceful.",
+                  "Versatile. Choose an additional range.",
+                  "Well-crafted. -1 weight."
                   ]
-                },
-                {
-                  "li": [
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Hand"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Close"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Reach"
-                    }
-                  ]
-                },
-                {
-                  "li": [
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Hooks and spikes. +1 damage, but +1 weight."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Sharp. +2 piercing."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Perfectly weighted. Add precise."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Serrated edges. +1 damage."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Glows in the presence of one type of creature, your choice."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Huge. Add messy and forceful."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Versatile. Choose an additional range."
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Well-crafted. -1 weight."
-                    }
-                  ]
-                },
-                {
-                  "li": [
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Ancient"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Unblemished"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Ornate"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Blood-stained"
-                    },
-                    {
-                      "-aid:pstyle": "Option",
-                      "#text": "Sinister"
-                    }
+                },{
+                  "item":"Appearance",
+                  "description": "Choose a look:",
+                  "descriptioncklist": [
+                  
+"Ancient",
+ "Unblemished",
+ "Ornate",
+ "Blood-stained",
+  "Sinister"
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "-id": "alignment",
+                }
+              ],
+              "alignment",
           "h3": [
             {
               "-aid:pstyle": "MoveName",

@@ -16,76 +16,52 @@
        ,"look": [ {"eyes":"Shifty Eyes or Criminal Eyes","hair": "Hooded Head, Messy Hair, or Cropped Hair","clothes": "Dark Clothes, Fancy Clothes, or Common Clothes","body": "Lithe Body, Knobby Body, or Flabby Body"
             }
           ],"racialmoves": [
-                {"move":"When you attack with a ranged weapon, deal +2 damage.","race": "Halfling"
+                {"description":"When you attack with a ranged weapon, deal +2 damage.","race": "Halfling"
                 },
-                {"move":"You are a professional. When you spout lore or discern realities about criminal activities, take +1.","race": "Human"
+                {"description":"You are a professional. When you spout lore or discern realities about criminal activities, take +1.","race": "Human"
                 }
               ]
-            ,"classmoves": [{"consequence":"roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:","move":"spend a moment to survey a dangerous area"
-                },
-                {"consequence":"roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost.","move":"pick locks or pockets or disable traps"
-                },
-                {"consequence":"you can choose to deal your damage or roll+DEX. ✴On a 10+ choose two. ✴On a 7–9 choose one.","move":"attack a surprised or defenseless enemy with a melee weapon"
-                },
-                {
-                  "move": "When someone tries to detect your alignment you can tell them any alignment you like."
-                },
-                {
-                  "move": "You’ve mastered the care and use of a poison. Choose a poison from the list below; that poison is no longer dangerous for you to use. You also start with three uses of the poison you choose. Whenever you have time to gather materials and a safe place to brew you can make three uses of the poison you choose for free. Note that some poisons are applied, meaning you have to carefully apply it to the target or something they eat or drink. Touch poisons just need to touch the target, they can even be used on the blade of a weapon."
-                }
-              ],
-              "h3": [
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Trap Expert"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Tricks of the Trade"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Backstab"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Flexible Morals"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Poisoner"
-                }
-              ],
-              "ul": [
-                {
-                  "li": [
+            ,"classmoves": [{
+                  "move": "Trap Expert",
+                  "mechanics":"roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:",
+                  "mechanicschecklist": [
                     "Is there a trap here and if so, what activates it?",
                     "What does the trap do when activated?",
                     "What else is hidden here?"
-                  ]
+                  ],
+                  "description":"spend a moment to survey a dangerous area"
                 },
                 {
-                  "li": [
+                  "move": "Tricks of the Trade",
+                "mechanics":"roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost.","description":"pick locks or pockets or disable traps"
+                },
+                {
+                  "move": "Backstab",
+               "mechanics":"you can choose to deal your damage or roll+DEX. ✴On a 10+ choose two. ✴On a 7–9 choose one.",
+                "mechanicschecklist": [
                     "You don’t get into melee with them",
                     "You deal your damage+1d6",
                     "You create an advantage, +1 forward to you or an ally acting on it",
                     "Reduce their armor by 1 until they repair it"
-                  ]
+                  ],
+               "description":"attack a surprised or defenseless enemy with a melee weapon"
                 },
                 {
-                  "li": [
+                  "move": "Flexible Morals",                
+                  "description": "When someone tries to detect your alignment you can tell them any alignment you like."
+                },
+                {
+                  "move": "Poisoner",
+                  "description": "You’ve mastered the care and use of a poison. Choose a poison from the list below; that poison is no longer dangerous for you to use. You also start with three uses of the poison you choose. Whenever you have time to gather materials and a safe place to brew you can make three uses of the poison you choose for free. Note that some poisons are applied, meaning you have to carefully apply it to the target or something they eat or drink. Touch poisons just need to touch the target, they can even be used on the blade of a weapon.",
+                  "descriptionchecklist": [
                     "Oil of Tagit (applied): The target falls into a light sleep",
                     "Bloodweed (touch): The target deals -1d4 damage ongoing until cured",
                     "Goldenroot (applied): The target treats the next creature they see as a trusted ally, until proved otherwise",
                     "Serpent’s Tears (touch): Anyone dealing damage to the target rolls twice and takes the better result."
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "-id": "alignment",
+              ],
+              "alignment",
           "h3": [
             {
               "-aid:pstyle": "MoveName",

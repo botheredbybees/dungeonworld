@@ -17,73 +17,65 @@
        ,"look": [ {"eyes":"Wild Eyes, Sharp Eyes, or Animal Eyes","hair": "Hooded Head, Wild Hair, or Bald","clothes": "Cape, Camouflage, or Traveling Clothes","body": "Lithe Body, Wild Body, or Sharp Body"
             }
           ],"racialmoves": [
-                {"move":"When you undertake a perilous journey through wilderness whatever job you take you succeed as if you rolled a 10+.","race": "Elf"
+                {"description":"When you undertake a perilous journey through wilderness whatever job you take you succeed as if you rolled a 10+.","race": "Elf"
                 },
-                {"move":"When you make camp in a dungeon or city, you don’t need to consume a ration.","race": "Human"
+                {"description":"When you make camp in a dungeon or city, you don’t need to consume a ration.","race": "Human"
                 }
               ]
-            ,"classmoves": [{"consequence":"roll+WIS. ✴On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. ✴On a 10+, you also choose 1:","move":"follow a trail of clues left behind by passing creatures"
-                },
-                {"consequence":"you can choose to deal your damage or name your target and roll+DEX.","move":"attack a defenseless or surprised enemy at range"
-                },
-                {
-                  "move": "You have a supernatural connection with a loyal animal. You can’t talk to it per se but it always acts as you wish it to. Name your animal companion and choose a species: Wolf, cougar, bear, eagle, dog, hawk, cat, owl, pigeon, rat, mule","move": "Choose a base:","move": "Choose as many strengths as its ferocity:"
-                },
-                {
-                  "-aid:pstyle": "Example",
-                  "#text": "Fast, burly, huge, calm, adaptable, quick reflexes, tireless, camouflage, ferocious, intimidating, keen senses, stealthy","move": "Your animal companion is trained to fight humanoids. Choose as many additional trainings as its cunning:"
-                },
-                {
-                  "-aid:pstyle": "Example",
-                  "#text": "Hunt, search, scout, guard, fight monsters, perform, labor, travel","move": "Choose as many weaknesses as its instinct:"
-                },
-                {
-                  "-aid:pstyle": "Example",
-                  "#text": "Flighty, savage, slow, broken, frightening, forgetful, stubborn, lame","move": "When you work with your animal companion on something it’s trained in…"
-                }
-              ],
-              "h3": [
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Hunt and Track (Wis)"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Called Shot"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Animal Companion"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Command"
-                }
-              ],
-              "ul": [
-                {
-                  "li": [
+            ,"classmoves": [{
+                  "move": "Hunt and Track (Wis)",
+                  "mechanics":"roll+WIS. ✴On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. ✴On a 10+, you also choose 1:",
+                  "description":"follow a trail of clues left behind by passing creatures",
+                   "descriptionchecklist": [
                     "Gain a useful bit of information about your quarry, the GM will tell you what",
                     "Determine what caused the trail to end"
                   ]
                 },
                 {
-                  "li": [
+                  "move": "Called Shot",
+                  "mechanics":"you can choose to deal your damage or name your target and roll+DEX.","description":"attack a defenseless or surprised enemy at range"
+                },
+                {
+                  "move": "Animal Companion",
+                  "description": "You have a supernatural connection with a loyal animal. You can’t talk to it per se but it always acts as you wish it to. Name your animal companion and choose a species:",
+                  "descriptionchecklist": ["Wolf", "cougar", "bear", "eagle", "dog", "hawk", "cat", "owl", "pigeon", "rat", "mule"],
+
+                  "mechanicschecklist": [{
+                    "item": "Strength",
+                    "description":"Choose as many strengths as its ferocity:",
+                    "choices":["Fast", "burly", "huge", "calm", "adaptable", "quick reflexes", "tireless", "camouflage", "ferocious", "intimidating", "keen senses", "stealthy"]
+                    },
+                  {
+                    "item": "Weaknesses",
+                    "description":"Choose as many weaknesses as its instinct:",
+                    "descriptionchecklist":["Flighty", "savage", "slow", "broken", "frightening", "forgetful", "stubborn", "lame"]
+                    },
+                  {
+                    "item": "Training",
+                    "description":"Your animal companion is trained to fight humanoids. Choose as many additional trainings as its cunning:",
+                    "descriptionchecklist":["Hunt", "search", "scout", "guard", "fight monsters", "perform", "labor", "travel"],
+                    "mechanicschecklist": [
                     "Head ✴10+: As 7–9, plus your damage ✴7-9: They do nothing but stand and drool for a few moments.",
                     "Arms ✴10+: As 7-9, plus your damage ✴7-9: They drop anything they’re holding.",
                     "Legs ✴10+: As 7-9, plus your damage ✴7-9: They’re hobbled and slow moving."
                   ]
-                },
-                {
-                  "li": [
+                  },
+                  {
+                    "item": "Stats",
+                    "mechanicschecklist": [
                     "Ferocity +2, Cunning +1, 1 Armor, Instinct +1",
                     "Ferocity +2, Cunning +2, 0 Armor, Instinct +1",
                     "Ferocity +1, Cunning +2, 1 Armor, Instinct +1",
                     "Ferocity +3, Cunning +1, 1 Armor, Instinct +2"
                   ]
-                },
+                  }
+
+                  ]}
+                ,
                 {
-                  "li": [
+                  "move": "Command",
+                  "description":"When you work with your animal companion on something it’s trained in…",
+                  "descriptionchecklist": [
                     "…and you attack the same target, add its ferocity to your damage",
                     "…and you track, add its cunning to your roll",
                     "…and you take damage, add its armor to your armor",
@@ -91,13 +83,10 @@
                     "…and you parley, add its cunning to your roll",
                     "…and someone interferes with you, add its instinct to their roll"
                   ]
+
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "-id": "alignment",
+              ],
+              "alignment",
           "h3": [
             {
               "-aid:pstyle": "MoveName",

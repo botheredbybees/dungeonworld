@@ -1,175 +1,90 @@
 {
-  "Root": {
-    "-xmlns:aid": "http://ns.adobe.com/AdobeInDesign/4.0/",
-    "h1": "The Wizard",
-    "Body": {
-      "div": [
-        {
-          "-id": "intro",
-          "p": [
-            {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?"
-            },
+  "class": "The Wizard",
+    "description": [ "Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?"
+            ,
             "Oh, the things we tell ourselves to feel better about the long, dark nights.",
             "You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul. For what? For power. What else is there? Not just the power of King or Country but the power to boil a man’s blood in his veins. To call on the thunder of the sky and the churn of the roiling earth. To shrug off the rules the world holds so dear.",
             "Let them cast their sidelong glances. Let them call you “warlock” or “diabolist.” Who among them can hurl fireballs from their eyes?",
             "Yeah. We didn’t think so."
           ]
-        },
-        {
-          "-id": "names",
-          "p": [
-            {
-              "-aid:pstyle": "NoIndent",
-              "em": "Elf",
-              "#text": ": Galadiir, Fenfaril, Lilliastre, Phirosalle, Enkirash, Halwyr"
+        ,
+        "names": [
+            {"race": "Elf",
+              "suggestions": ": Galadiir, Fenfaril, Lilliastre, Phirosalle, Enkirash, Halwyr"
             },
             {
-              "-aid:pstyle": "NoIndent",
-              "em": "Human",
-              "#text": ": Avon, Morgan, Rath, Ysolde, Ovid, Vitus, Aldara, Xeno, Uri"
+              "race": "Human",
+              "suggestions": ": Avon, Morgan, Rath, Ysolde, Ovid, Vitus, Aldara, Xeno, Uri"
             }
           ]
-        },
-        {
-          "-id": "look",
-          "p": [
-            {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Choose one for each:"
+        ,"look": [
+            {"eyes": "Haunted Eyes, Sharp Eyes, or Crazy Eyes"
             },
             {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Haunted Eyes, Sharp Eyes, or Crazy Eyes"
+              "hair": "Styled Hair, Wild Hair, or Pointed Hat"
             },
             {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Styled Hair, Wild Hair, or Pointed Hat"
+              "clothes": "Worn Robes, Stylish Robes, or Strange Robes"
             },
             {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Worn Robes, Stylish Robes, or Strange Robes"
-            },
-            {
-              "-aid:pstyle": "NoIndent",
-              "#text": "Pudgy Body, Creepy Body, or Thin Body"
+              "body": "Pudgy Body, Creepy Body, or Thin Body"
             }
           ]
-        },
-        {
-          "-id": "startingmoves",
-          "p": {
-            "-aid:pstyle": "InstructionsAfterHeader",
-            "#text": "Choose a race and gain the corresponding move:"
-          },
-          "div": [
-            {
-              "-id": "racialmoves",
-              "h3": [
+        ,"racialmoves": [
                 {
-                  "-aid:pstyle": "MoveName",
-                  "#text": "Elf"
+                  "description": "Magic is as natural as breath to you. Detect Magic is a cantrip for you.",
+                  "race": "Elf"
                 },
                 {
-                  "-aid:pstyle": "MoveName",
-                  "#text": "Human"
+                  "description": "Choose one cleric spell. You can cast it as if it was a wizard spell.",
+                  "race": "Human"
                 }
               ],
               "p": [
                 {
                   "-aid:pstyle": "NoIndent",
-                  "#text": "Magic is as natural as breath to you. Detect Magic is a cantrip for you."
+                  "#text": ""
                 },
                 {
                   "-aid:pstyle": "NoIndent",
                   "#text": "Choose one cleric spell. You can cast it as if it was a wizard spell."
                 }
               ]
-            },
-            {
-              "-id": "classmoves",
-              "p": [
+            ,"classmoves": [
                 {
-                  "-aid:pstyle": "Instructions",
-                  "#text": "You start with these moves:"
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": "You have mastered several spells and inscribed them in your spellbook. You start out with three first level spells in your spellbook as well as the cantrips. Whenever you gain a level, you add a new spell of your level or lower to your spellbook. You spellbook is 1 weight."
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": [
-                    "When you ",
-                    ", you:"
-                  ],
-                  "strong": "spend uninterrupted time (an hour or so) in quiet contemplation of your spellbook"
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": [
-                    "When you ",
-                    ", roll+Int. ✴On a 10+, the spell is successfully cast and you do not forget the spell—you may cast it again later. ✴On a 7-9, the spell is cast, but choose one:"
-                  ],
-                  "strong": "release a spell you’ve prepared"
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": "Note that maintaining spells with ongoing effects will sometimes cause a penalty to your roll to cast a spell."
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": "You may end any ongoing spell immediately and use the energy of its dissipation to deflect an oncoming attack. The spell ends and you subtract its level from the damage done to you."
-                },
-                {
-                  "-aid:pstyle": "NoIndent",
-                  "#text": [
-                    "When you ",
-                    ", tell the GM what you’re trying to achieve. Ritual effects are always possible, but the GM will give you one to four of the following conditions:"
-                  ],
-                  "strong": "draw on a place of power to create a magical effect"
-                }
-              ],
-              "h3": [
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Spellbook"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Prepare Spells"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Cast a Spell (Int)"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Spell Defense"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Ritual"
-                }
-              ],
-              "ul": [
-                {
-                  "li": [
+                  "move": "Prepare Spells",
+                  "move": "Spellbook",
+                  "mechanics": "You have mastered several spells and inscribed them in your spellbook. You start out with three first level spells in your spellbook as well as the cantrips. Whenever you gain a level, you add a new spell of your level or lower to your spellbook. You spellbook is 1 weight.",
+                "description": "When you spend uninterrupted time (an hour or so) in quiet contemplation of your spellbook, you:",
+                "descriptionchecklist": [
                     "Lose any spells you already have prepared",
                     "Prepare new spells of your choice from your spellbook whose total levels don’t exceed your own level+1.",
                     "Prepare your cantrips which never count against your limit."
                   ]
+
                 },
                 {
-                  "li": [
+                  "move": "Cast a Spell (Int)",
+                  "mechanics":
+                    "When you release a spell you’ve prepared, roll+Int. ✴On a 10+, the spell is successfully cast and you do not forget the spell—you may cast it again later. ✴On a 7-9, the spell is cast, but choose one:"
+                  , "mechanicschecklist": [
                     "You draw unwelcome attention or put yourself in a spot. The GM will tell you how.",
                     "The spell disturbs the fabric of reality as it is cast—take -1 ongoing to cast a spell until the next time you Prepare Spells.",
                     "After it is cast, the spell is forgotten. You cannot cast the spell again until you prepare spells."
-                  ]
+                  ],
+                  "description": "release a spell you’ve prepared"
                 },
                 {
-                  "li": [
+                  "move": "Spell Defense"
+                  "mechanics": "Note that maintaining spells with ongoing effects will sometimes cause a penalty to your roll to cast a spell."
+                ,
+                  "description": "You may end any ongoing spell immediately and use the energy of its dissipation to deflect an oncoming attack. The spell ends and you subtract its level from the damage done to you."
+                },
+                {
+                  "move": "Ritual",
+                  "mechanics":
+                    "When you draw on a place of power to create a magical effect, tell the GM what you’re trying to achieve. Ritual effects are always possible, but the GM will give you one to four of the following conditions:",
+                    "mechanicschecklist": [
                     "It’s going to take days/weeks/months",
                     "First you must ____",
                     "You’ll need help from ____",
@@ -178,13 +93,10 @@
                     "You and your allies will risk danger from ____",
                     "You’ll have to disenchant ____ to do it"
                   ]
+                  
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "-id": "alignment",
+              ],
+          "alignment",
           "h3": [
             {
               "-aid:pstyle": "MoveName",

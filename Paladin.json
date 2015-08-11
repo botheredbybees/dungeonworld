@@ -18,52 +18,44 @@
 
 "racialmoves": [
                 
-                {"move":"When you pray for guidance, even for a moment, and ask, “What here is evil? the GM will tell you, honestly.","race": "Human"
+                {"description":"When you pray for guidance, even for a moment, and ask, “What here is evil? the GM will tell you, honestly.","race": "Human"
                 }
               ]
 
-            ,"classmoves": [{"consequence":"roll+CHA. ✴On a 10+ you heal 1d8 damage or remove one disease. ✴On a 7–9, they are healed, but the damage or disease is transferred to you.","move":"touch someone, skin to skin, and pray for their well-being ","move": "You ignore the clumsy tag on armor you wear."
-                },
-                {"consequence":"roll+Cha. ✴On a 7+, they choose one:","move":"give an NPC an order based on your divine authority","move": "✴On a 10+, you also take +1 forward against them. ✴On a miss, they do as they please and you take -1 forward against them."
-                },
-                {"consequence":"state what you set out to do:","move":"dedicate yourself to a mission through prayer and ritual cleansing","move": "Then choose up to two boons:","move": "The GM will then tell you what vow or vows is required of you to maintain your blessing:"
-                }
-              ],
-              "h3": [
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Lay on Hands (Cha)"
+            ,"classmoves": [{
+                  "move": "Lay on Hands (Cha)",
+                  "mechanics":"roll+CHA. ✴On a 10+ you heal 1d8 damage or remove one disease. ✴On a 7–9, they are healed, but the damage or disease is transferred to you.",
+                  "description":"touch someone, skin to skin, and pray for their well-being ",
                 },
                 {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Armored"
+                  "move": "Armored",                
+                  "description": "You ignore the clumsy tag on armor you wear."
                 },
                 {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "I Am the Law"
-                },
-                {
-                  "-aid:pstyle": "BasicMoveName",
-                  "#text": "Quest"
-                }
-              ],
-              "ul": [
-                {
-                  "li": [
+                  "move": "I Am the Law",
+                "mechanics":"roll+Cha. ✴On a 7+, they choose one:""✴On a 10+, you also take +1 forward against them. *On a miss, they do as they please and you take -1 forward against them.",
+                "mechanicschecklist": [ 
                     "Do what you say",
                     "Back away cautiously, then flee",
                     "Attack you"
-                  ]
-                },
-                {
-                  "li": [
+                  ],
+                "description":"give an NPC an order based on your divine authority"
+                },{
+
+                  "move": "Quest",
+                  "description":"dedicate yourself to a mission through prayer and ritual cleansing",
+                  "mechanicschecklist":[ {
+                  "item": "Goal",
+                  "description":"state what you set out to do",
+                  "descriptionchecklist":[
                     "Slay _______, a great blight on the land",
                     "Defend _______ from the iniquities that beset them",
                     "Discover the truth of _______"
                   ]
-                },
-                {
-                  "li": [
+                  },{
+                  "item": "Boons",
+                "description": "Then choose up to two boons:",
+                "descriptionchecklist": [
                     "An unwavering sense of direction to _______.",
                     "Invulnerability to _______ (e.g., edged weapons, fire, enchantment, etc.)",
                     "A mark of divine authority",
@@ -71,9 +63,10 @@
                     "A voice that transcends language",
                     "A freedom from hunger, thirst, and sleep"
                   ]
-                },
-                {
-                  "li": [
+                  },{
+                  "item": "Vows",
+                "description": "The GM will then tell you what vow or vows is required of you to maintain your blessing:",
+                "descriptionchecklist": [
                     "Honor (forbidden: cowardly tactics and tricks)",
                     "Temperance (forbidden: gluttony in food, drink, and pleasure of the flesh)",
                     "Piety (required: observance of daily holy services)",
@@ -81,13 +74,10 @@
                     "Truth (forbidden: lies)",
                     "Hospitality (required: comfort to those in need, no matter who they are)"
                   ]
+                }]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "-id": "alignment",
+              ],
+              "alignment",
           "h3": [
             {
               "-aid:pstyle": "MoveName",

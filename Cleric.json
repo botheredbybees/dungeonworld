@@ -17,9 +17,9 @@
        ,"look": [ {"eyes":"Kind Eyes, Sharp Eyes, or Sad Eyes","hair": "Tonsure, Strange Hair, or Bald","clothes": "Flowing Robes, Habit, or Common Garb","body": "Thin Body, Knobby Body, or Flabby Body"
             }
           ],"racialmoves": [
-                {"move":"You are one with stone. When you commune you are also granted a special version of Words of the Unspeaking as a rote which only works on stone.","race": "Dwarf"
+                {"description":"You are one with stone. When you commune you are also granted a special version of Words of the Unspeaking as a rote which only works on stone.","race": "Dwarf"
                 },
-                {"move":"Your faith is diverse. Choose one wizard spell. You can cast and be granted that spell as if it was a cleric spell.","race": "Human"
+                {"description":"Your faith is diverse. Choose one wizard spell. You can cast and be granted that spell as if it was a cleric spell.","race": "Human"
                 }
               ],
             "classmoves": [
