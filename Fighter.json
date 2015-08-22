@@ -35,12 +35,12 @@
               ],
             "classmovesmechanics":"roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.",
             "classmoves": [{
-                  "move": "Bend Bars, Lift Gates"
-            "description":"use pure strength to destroy an inanimate obstacle",
+                  "move": "Bend Bars, Lift Gates",
+            "description":"use pure strength to destroy an inanimate obstacle"
                 },
                 {
                   "move": "Armored",
-            "description": "You ignore the clumsy tag on armor you wear.",
+            "description": "You ignore the clumsy tag on armor you wear."
                 },
                 { "move": "Signature Weapon",               
             "description": "This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true.",
